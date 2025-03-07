@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Portfolio
+server:
+  port: 8069
