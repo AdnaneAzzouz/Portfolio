@@ -5,9 +5,9 @@ Le projet "Portfolio" est un projet qui réunit la partie Front et Back end pour
 == Portfolio - BackEnd
 C'est un projet qui servira à générer une API Rest pour que la partie Front-End puisse s'en servir. Voici une liste des composants qui est intégré au projet :
 
-* Langage de programmation : Java
+* Langage de programmation : Java 21
 * Base de données : MongoDB
-* Framework: Spring Boot
+* Framework: Spring Boot 3
 ** Type: Reactive
 ** Addons:
 *** Spring WebFlux (Permet de créer une API réactive.)
