@@ -18,7 +18,7 @@ public class SecurityConfiguration {
     /**
      * Actuellement : Désactive les requêtes de sécurité pour permettre aux requêtes HTTP de passer.
      * <p>
-     * Ulterieurement : Sécurise les requêtes et la connexion au site internet.
+     * Ultérieurement : Sécurise les requêtes et la connexion au site internet.
      * @param http Le serveur Http de Spring Security
      * @return La chaine web filtré pour Spring Security
      */
@@ -34,7 +34,7 @@ public class SecurityConfiguration {
     }
 
     /**
-     * Instantie l'encodeur de mot de passe par défaut.
+     * Instancie l'encodeur de mot de passe par défaut.
      * @return Le bean pour l'encodeur de mot de passe.
      */
     @Bean

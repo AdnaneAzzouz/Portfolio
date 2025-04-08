@@ -30,7 +30,7 @@ public class UtilisateurController {
     private final MessageSource messageSource;
 
     /**
-     * Requête POST créant un utilisateur à l'aide d'un corps de Requete "UtilisateurDTO"
+     * Requête POST créant un utilisateur à l'aide d'un corps de Requête "UtilisateurDTO"
      * @param utilisateurDto Classe DTO servant de corps de requête
      * @return 201 si passé, 422 si le corps de la requête a une erreur, 500 si le serveur a reçu une erreur non suspectée.
      */
