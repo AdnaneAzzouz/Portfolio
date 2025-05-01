@@ -11,8 +11,7 @@ C'est un projet qui servira à générer une API Rest pour que la partie Front-E
 ** Type: Reactive
 ** Addons:
 *** Spring WebFlux (Permet de créer une API réactive.)
-*** Spring Security (Sécurise les APIs et encode les valeurs sensibles telles que les mots de passes)
-*** Spring MongoDB (Communique avec MongoDB)
+*** Spring Java Mail (Permet d'envoyer des mails)
 *** Spring Validation (Confirme que les requêtes HTTP nécessitant un corps est bien conforme.)
 * Dépendances :
 ** Mapstruct (Permet de convertir une classe en une autre.)
