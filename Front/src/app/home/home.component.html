@@ -1,0 +1,68 @@
+<div class="container">
+  <!-- Hero Section -->
+  <section class="py-5 text-center bg-light rounded mb-1">
+    <div class="py-5">
+      <h1 class="display-4 fw-bold">Welcome to my Portfolio</h1>
+      <p class="lead text-muted mb-4">Full-Stack Developer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="mb-5">
+    <h2 class="border-bottom pb-2 mb-4">About Me</h2>
+    <p class="lead">
+      I am a passionate Full-Stack Developer with expertise in building robust and scalable software and web applications.
+      My technical skills include:
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+      <!-- Backend Skills Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-primary">Backend</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Spring Framework</li>
+              <li class="list-group-item">.NET</li>
+              <li class="list-group-item">Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frontend Skills Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-primary">Frontend</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Angular</li>
+              <li class="list-group-item">HTML/CSS (Bootstrap)</li>
+              <li class="list-group-item">JavaScript/TypeScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Skills Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-primary">Other Skills</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Database (MySQL, MariaDB, Postgres...)</li>
+              <li class="list-group-item">RESTful APIs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="py-5 text-center bg-light rounded">
+    <h2 class="mb-3">Let's Work Together</h2>
+    <p class="lead mb-4">Interested in hiring a new developer in your company? Let's get in touch!</p>
+    <a [routerLink]="['/contact']" class="btn btn-primary btn-lg">Contact Me</a>
+  </section>
+</div>
