@@ -1,0 +1,20 @@
+server:
+  port: 8090
+spring:
+  config:
+    import: file:./src/main/resources/.env[.properties]
+  main:
+    web-application-type: reactive
+  application:
+    name: Portfolio
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${EMAIL_USERNAME}
+    password: ${EMAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

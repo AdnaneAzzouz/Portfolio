@@ -2,7 +2,7 @@
 
 Le projet "Portfolio" est un projet qui réunit la partie Front et Back end pour créer un site internet entièrement personnalisé afin de montrer aux personnes intéressé l'étendu de mes connaissances.
 
-== Portfolio - BackEnd
+== Portfolio—BackEnd
 C'est un projet qui servira à générer une API Rest pour que la partie Front-End puisse s'en servir. Voici une liste des composants qui est intégré au projet :
 
 * Langage de programmation : Java 21
@@ -19,7 +19,7 @@ C'est un projet qui servira à générer une API Rest pour que la partie Front-E
 ** Lombok (Permet de générer les constructeurs et méthodes telles que les Getter et setter.)
 * Plugin: SonarLint
 
-== Portfolio - FrontEnd
+== Portfolio—FrontEnd
 C'est un projet type Angular qui servira à afficher le site internet. Elle communiquera avec le backend pour la connexion.
 
 WARNING: Le Front n'est pas encore en place. Elle est en cours.
